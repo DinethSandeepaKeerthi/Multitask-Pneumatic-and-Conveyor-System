@@ -180,7 +180,8 @@ multitask-pneumatic-conveyor/
 │   ├── flowchart.pdf          # Full state machine flowchart
 │   ├── ladder_diagram.pdf     # Complete ladder diagram (22 pages)
 ├── plc/
-│   └── MAIN_OB1.awl           # Exported PLC program (STEP 7 AWL/LAD)
+│   ├── project instruction list.awl   # Exported PLC program (STEP 7 AWL/LAD)
+│   ├── Project ladder.mwp          # Exported PLC program (STEP 7 AWL/LAD)
 ├── media/
 │   ├── images/
 │   │   ├── system_overview.jpg
