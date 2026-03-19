@@ -215,7 +215,7 @@ multitask-pneumatic-conveyor/
 
 ### PLC Upload Steps
 
-1. Open `plc/MAIN_OB1.awl` in **STEP 7 Micro/WIN**.
+1. Open `plc/Project ladder.awl` in **STEP 7 Micro/WIN**.
 2. Verify I/O symbol table matches the address mapping above.
 3. Connect to the S7-200 via PC/PPI cable.
 4. Download the program block to the PLC.
