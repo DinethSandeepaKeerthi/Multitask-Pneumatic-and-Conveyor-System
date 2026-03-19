@@ -6,8 +6,7 @@
 
 ## 📸 Demo & Media
 
-> 📷 *Add your system images here*
-> 🎥 *Add your demo video link here (YouTube / Google Drive)*
+> 🎥 demo video link here https://www.linkedin.com/posts/dineth-sandeepa-keerthi-b47879213_automation-plc-industrialautomation-activity-7440326655212126208-RysI?utm_source=share&utm_medium=member_desktop&rcm=ACoAADYOSicBFv0ozNG0GC2kwkhN0hb40oej748
 ---
 
 ## 📌 Project Overview
