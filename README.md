@@ -179,15 +179,18 @@ multitask-pneumatic-conveyor/
 ├── docs/
 │   ├── flowchart.pdf          # Full state machine flowchart
 │   ├── ladder_diagram.pdf     # Complete ladder diagram (22 pages)
+│   └── system_sketch.jpg      # Hand-drawn system layout
 ├── plc/
 │   ├── project instruction list.awl   # Exported PLC program (STEP 7 AWL/LAD)
 │   ├── Project ladder.mwp          # Exported PLC program (STEP 7 AWL/LAD)
 ├── media/
 │   ├── images/
 │   │   ├── system_overview.jpg
+│   │   ├── pick_place_unit.jpg
+│   │   └── pneumatic_arm.jpg
 │   └── demo_video.mp4         # (or link in README)
 └── hardware/
-    └── io_mapping.csv         # I/O address table
+    └── io_mapping.pdf        # I/O address table
 ```
 
 ---
@@ -235,7 +238,7 @@ multitask-pneumatic-conveyor/
 ## 🙋 Author
 
 **KEERTHI P.E.D.S.**
-Assignment 02 — Multitask Pneumatic and Conveyor System
+Multitask Pneumatic and Conveyor System
 
 ---
 
