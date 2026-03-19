@@ -8,15 +8,6 @@
 
 > 📷 *Add your system images here*
 > 🎥 *Add your demo video link here (YouTube / Google Drive)*
-
-```
-project-images/
-├── system_overview.jpg
-├── pick_and_place_unit.jpg
-├── pneumatic_arm_station.jpg
-└── full_conveyor_layout.jpg
-```
-
 ---
 
 ## 📌 Project Overview
@@ -41,13 +32,13 @@ This project implements a **3-station automated conveyor and pneumatic handling 
 ┌──────────────────────────────────────────────────────────────────────┐
 │                    MULTITASK CONVEYOR SYSTEM                         │
 │                                                                      │
-│  [CONVEYOR 01]──────────────►[CONVEYOR 02]──────────────►[CONVEYOR 03]│
-│   Stepper+TB6600              Stepper+TB6600               Stepper+TB6600│
-│   S1 · S2 · S3                S4 · S5 · S6                    S7    │
-│        │                           │               │                 │
-│   Pick & Place              Pneumatic Arm       Push Unit           │
-│  (TN01+Rodless+             (CY01+CY02+         (TN02)              │
-│    Suction)                  Gripper)                               │
+│ [CONVEYOR 01]──────────────►[CONVEYOR 02]──────────────►[CONVEYOR 03]│
+│ Stepper+TB6600              Stepper+TB6600             Stepper+TB6600│
+│ S1 · S2 · S3                S4 · S5 · S6                    S7       │
+│                   │                │               │                 │
+│             Pick & Place    Pneumatic Arm       Push Unit            │
+│             (TN01+Rodless+  (CY01+CY02+         (TN02)               │
+│             Suction)         Gripper)                                │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -188,14 +179,11 @@ multitask-pneumatic-conveyor/
 ├── docs/
 │   ├── flowchart.pdf          # Full state machine flowchart
 │   ├── ladder_diagram.pdf     # Complete ladder diagram (22 pages)
-│   └── system_sketch.jpg      # Hand-drawn system layout
 ├── plc/
 │   └── MAIN_OB1.awl           # Exported PLC program (STEP 7 AWL/LAD)
 ├── media/
 │   ├── images/
 │   │   ├── system_overview.jpg
-│   │   ├── pick_place_unit.jpg
-│   │   └── pneumatic_arm.jpg
 │   └── demo_video.mp4         # (or link in README)
 └── hardware/
     └── io_mapping.csv         # I/O address table
@@ -215,7 +203,7 @@ multitask-pneumatic-conveyor/
 
 ### PLC Upload Steps
 
-1. Open `plc/project instruction list.awl` in **STEP 7 Micro/WIN**.
+1. Open plc/project instruction list.awl and Project ladder.mwp in **STEP 7 Micro/WIN**.
 2. Verify I/O symbol table matches the address mapping above.
 3. Connect to the S7-200 via PC/PPI cable.
 4. Download the program block to the PLC.
